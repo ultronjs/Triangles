@@ -1,6 +1,6 @@
 # Fun with Triangles
 
-This project was designed as an assignment for NeogCamp LevelZero(Mark-12).
+This project was designed as an assignment for NeogCamp LevelZero(Mark-13).
 
 This app is a Fun with Triangles app using HTML,CSS and JavaScript.This app contains lots of page with different functionality.
 HomePage
