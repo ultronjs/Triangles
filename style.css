@@ -1,0 +1,129 @@
+:root{
+    --hover-background-color:#FF6600;
+}
+
+body{
+    margin: 0;
+    background-color:lightyellow;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    position:fixed;
+    height: 100%;
+    background-color: rgb(255, 221, 182);
+    overflow: auto;
+}
+
+.active{
+    background-color: darkorange;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2.5rem 16px;
+    font-weight: bold;
+
+}
+
+.container-link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2.5rem 8px;
+    margin: 0.5rem;
+    font-weight: bold;
+    border: solid 1px black;
+    border-radius: 0.5rem;
+}
+.container-link:hover {
+    color: white;
+    background-color:var(--hover-background-color);
+}
+
+.link:hover{
+    color: white;
+    background-color: var(--hover-background-color);
+}
+
+/* a:hover {
+    background: #CDFEAA;
+} */
+
+.link-active {
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+    display: block;
+    /* margin-left: 20%; */
+    padding: 1px 16px;
+
+}
+h1{
+    text-align: center;
+}
+
+.triangle-container{
+    text-align: center;
+    border: 1rem solid greenyellow;
+    margin: 0rem 10rem;
+    background-color:lightpink;
+}
+
+img{
+    height: 10rem;
+    width: 10rem;
+}
+
+input{
+    margin-bottom: 10px;
+    height: 30px;
+    margin: auto;
+}
+button{
+    margin: 10px;
+    border-radius: 0.5rem;
+    background-color: darkorange;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+button:hover{
+    background-color: var(--hover-background-color);
+    color: white;
+    margin: 10px;
+}
+
+#heading_red{
+    color: red;
+}
+
+#heading_green{
+    color: green;
+}
+
+#quiz{
+    padding: 10px;
+    font-size: large;
+}
+
+#results{
+    font-size: large;
+    padding-bottom: 1rem ;
+}
+
+#radio{
+    
+    margin-top: 10px     ;
+    height: 15px;
+
+}
